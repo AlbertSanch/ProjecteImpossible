@@ -1,3 +1,12 @@
 <resources>
-    <string name="app_name">ProjecteImpossible</string>
+    <string name="app_name">partbottons</string>
+    <string-array name="hotels5">
+        <item>Ocean Drive Hotel</item>
+        <item>Almanac Barcelona</item>
+        <item>Monument Hotel</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="todo">todo</string>
 </resources>
