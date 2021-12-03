@@ -11,7 +11,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="130dp"
         android:layout_marginStart="75dp"
-        android:src="@drawable/business"
+        android:src="@drawable/restaurants"
         android:onClick="onclick"
         tools:ignore="OnClick,UsingOnClickInXml"
         android:contentDescription="@string/todo" />
