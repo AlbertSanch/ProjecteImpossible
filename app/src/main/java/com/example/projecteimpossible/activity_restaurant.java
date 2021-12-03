@@ -8,14 +8,16 @@ import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.Spinner;
 
-public class activity_restaurant extends AppCompatActivity {
+public class activity_restaurant extends AppCompatActivity implements Fragmentcinco.OnFragmentInteractionListener{
+    Fragmentcinco Fragment5;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_restaurant);
         Spinner spinner = (Spinner) findViewById(R.id.spinner);
-        String[] letra = {"A","B","C","D","E"};
+        String[] letra = {"TRIA VALORACIÓ","5 ESTRELLES","4 ESTRELLES","3 ESTRELLES","2 ESTRELLES","1 ESTRELLES"};
         spinner.setAdapter(new ArrayAdapter<>(this, android.R.layout.simple_spinner_item, letra));
     }
     public void onclick(View view) {

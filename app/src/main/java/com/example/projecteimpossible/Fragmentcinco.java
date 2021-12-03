@@ -61,4 +61,7 @@ public class Fragmentcinco extends Fragment {
         // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_fragmentcinco, container, false);
     }
+
+    public interface OnFragmentInteractionListener {
+    }
 }

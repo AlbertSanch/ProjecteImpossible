@@ -22,6 +22,8 @@ public  class MainActivity extends AppCompatActivity {
         movies=findViewById(R.id.botmovies);
         hotel=findViewById(R.id.bothotels);
 
+
+
     }
     public void onclick(View view) {
 
@@ -30,6 +32,7 @@ public  class MainActivity extends AppCompatActivity {
             startActivity(i1);
         }
         if (view.getId() == movies.getId()) {
+
             Intent i2 = new Intent(getApplicationContext(), activity_movies.class);
             startActivity(i2);
         }
