@@ -1,12 +1,36 @@
 <resources>
-    <string name="app_name">partbottons</string>
-    <string-array name="hotels5">
-        <item>Ocean Drive Hotel</item>
-        <item>Almanac Barcelona</item>
-        <item>Monument Hotel</item>
-    </string-array>
-
+    <string name="app_name">ProjecteImpossible</string>
+    <string name="Abac">ABaC Barcelona</string>
+    <string name="restaurantabac">Restaurant, Av. del Tibidabo, 1</string>
+    <string name="webabac">abacrestaurant.com</string>
+    <string name="telefonabac">933 19 66 00</string>
+    <string name="amazonico_madrid">AMAZONICO Madrid</string>
+    <string name="restaurantamazonico">Restaurant, C. Jorge Juan, 20,</string>
+    <string name="telefonamazonic">915 15 43 32</string>
+    <string name="restauranteamazonico.com">restauranteamazonico.com</string>
+    <string name="restaurant_av_del_tibidabo_1">Restaurant, Av. del Tibidabo, 1</string>
+    <string name="telefonamazxonico">933 19 66 00</string>
+    <string name="telefonmcdo">938 46 59 99</string>
+    <string name="mcdocarrer">Restaurante Comida Rapida ,Carrer Matagalls, 9, 08402 Granollers</string>
+    <string name="mcdonald_s_granollers">McDonald\'s Granollers</string>
+    <string name="mcdonalds_com">mcdonalds.com</string>
+    <string name="la_salita_valencia">La Salita Valencia</string>
+    <string name="restaurant_carrer_de_pere_iii_el_gran_11">Restaurant,Carrer de Pere III el Gran, 11</string>
+    <string name="tlfnlasalita">609 33 07 60</string>
+    <string name="lasalitacovermanager_com">covermanager.com</string>
+    <string name="burgerking_com">burgerking.com</string>
+    <string name="tlfnburger">911 93 39 33</string>
+    <string name="restaurant_comida_rapida_carrer_matagalls_s_n">Restaurant Comida Rapida, Carrer Matagalls, s/n,</string>
+    <string name="burger_king_granollers">Burger King Granollers</string>
+    <string name="raya_y_el_ltimo_drag_n">Raya y el último dragón</string>
+    <string name="hereditario">Hereditario</string>
+    <string name="el_llamado_salvaje">El LLamado Salvaje</string>
+    <string name="desc_llamadosalvaje">Cuenta la historia de Buck, un perro bonachón cuya vida cambia de la noche a la mañana cuando su dueño se muda de California a los exóticos parajes de Alaska durante la Fiebre del Oro a finales del s. XIX. Como novato de un grupo perros de trineo (y posteriormente su líder), Buck experimenta una aventura que jamás olvidará, encontrando su lugar en el mundo y convirtiéndose así en su propio amo.</string>
+    <string name="infoelllamado">Director: Chris Sanders\nDuración 100 min.\nGénero Acción y Aventura, Animación, Drama\n Reparto: Karen Gillan, Dan Stevens, Harrison Ford, Wes Brown, Bradley Whitford</string>
+    <string name="info_hereditario">Director: Ari Aster\nDuracion: 127 min\nGénero: Miedo y angustia\nReparto: Toni Collette, Milly Shapiro, Gabriel Byrne</string>
+    <string name="desc_raya">En el fantástico mundo de Kumandra, humanos y dragones vivieron juntos hace mucho tiempo en perfecta armonía. Pero cuando unas fuerzas del mal amenazaron el territorio, los dragones se sacrificaron para salvar a la humanidad. Ahora, 500 años después, esas mismas fuerzas malignas han regresado y Raya, una guerrera solitaria, tendrá que encontrar al último y legendario dragón para reconstruir un mundo destruido y volver a unir a su pueblo.</string>
+    <string name="info_raya">Dirección: Don Hall, Carlos López Estrada, Paul Briggs, John Ripa\nDuración: 114 min.\nGénero:Animación, Fantástico, Aventuras, Acción</string>
+    <string name="todo">TODO</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="todo">todo</string>
 </resources>

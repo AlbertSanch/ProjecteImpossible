@@ -1,28 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".MainActivity">
     <ImageButton
-        android:id="@+id/b1"
+        android:id="@+id/botrestau"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="130dp"
         android:layout_marginStart="75dp"
         android:src="@drawable/business"
-        android:contentDescription="TODO" />
+        android:onClick="onclick"
+        tools:ignore="OnClick,UsingOnClickInXml"
+        android:contentDescription="@string/todo" />
     <ImageButton
-        android:id="@+id/b2"
+        android:id="@+id/botparking"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="-160dp"
         android:layout_marginStart="240dp"
-        android:src="@drawable/parking"/>
+        android:src="@drawable/parking"
+        android:onClick="onclick"
+        tools:ignore="OnClick,UsingOnClickInXml"
+        android:contentDescription="@string/todo" />
     <ImageButton
-        android:id="@+id/b3"
+        android:id="@+id/bothotels"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="0dp"
@@ -30,14 +35,17 @@
         android:src="@drawable/hotels"
         android:onClick="onclick"
         tools:ignore="OnClick,UsingOnClickInXml"
-        android:contentDescription="@string/todo"/>
+        android:contentDescription="@string/todo" />
     <ImageButton
-        android:id="@+id/b4"
+        android:id="@+id/botmovies"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="-160dp"
-        android:layout_marginLeft="240dp"
-        android:src="@drawable/movies"/>
+        android:layout_marginStart="240dp"
+        android:src="@drawable/movies"
+        android:onClick="onclick"
+        tools:ignore="OnClick,UsingOnClickInXml"
+        android:contentDescription="@string/todo" />
 </LinearLayout>
 
 
