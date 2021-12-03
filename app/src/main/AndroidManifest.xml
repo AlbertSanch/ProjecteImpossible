@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ProjecteImpossible">
         <activity
+            android:name=".activity_movies"
+            android:exported="true" />
+        <activity
+            android:name=".activity_restaurant"
+            android:exported="true" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
