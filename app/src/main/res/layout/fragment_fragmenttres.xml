@@ -42,12 +42,14 @@
                     android:textSize="11sp"
                     />
                 <TextView
+                    android:id="@+id/telefonmcdo"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/telefonmcdo"
                     android:textSize="11sp"
                     />
                 <TextView
+                    android:id="@+id/mcdolink"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/mcdonalds_com"
@@ -86,12 +88,14 @@
                     android:textSize="11sp"
                     />
                 <TextView
+                    android:id="@+id/telefonburger"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/tlfnburger"
                     android:textSize="11sp"
                     />
                 <TextView
+                    android:id="@+id/burgerlink"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/burgerking_com"

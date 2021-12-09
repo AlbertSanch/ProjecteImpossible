@@ -41,12 +41,14 @@
                     android:textSize="11sp"
                     />
                 <TextView
+                    android:id="@+id/abactelefon"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/telefonabac"
                     android:textSize="11sp"
                     />
                 <TextView
+                    android:id="@+id/abaclink"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/webabac"
@@ -85,12 +87,14 @@
                     android:textSize="11sp"
                     />
                 <TextView
+                    android:id="@+id/telefonamazonico"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/telefonamazonic"
                     android:textSize="11sp"
                     />
                 <TextView
+                    android:id="@+id/amazonicolink"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/restauranteamazonico.com"
@@ -128,12 +132,14 @@
                     android:textSize="11sp"
                     />
                 <TextView
+                    android:id="@+id/telefonmcdo"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/telefonmcdo"
                     android:textSize="11sp"
                     />
                 <TextView
+                    android:id="@+id/mcdolink"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/mcdonalds_com"
@@ -171,12 +177,14 @@
                     android:textSize="11sp"
                     />
                 <TextView
+                    android:id="@+id/telefonsalita"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/tlfnlasalita"
                     android:textSize="11sp"
                     />
                 <TextView
+                    android:id="@+id/salitalink"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/lasalitacovermanager_com"
@@ -214,12 +222,14 @@
                     android:textSize="11sp"
                     />
                 <TextView
+                    android:id="@+id/telefonburger"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/tlfnburger"
                     android:textSize="11sp"
                     />
                 <TextView
+                    android:id="@+id/burgerlink"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/burgerking_com"

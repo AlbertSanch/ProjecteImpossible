@@ -1,5 +1,7 @@
 package com.example.projecteimpossible;
 
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
@@ -7,6 +9,7 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.TextView;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -59,7 +62,50 @@ public class Fragmentcinco extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_fragmentcinco, container, false);
+        View v=inflater.inflate(R.layout.fragment_fragmentcinco, container, false);
+        TextView telefonabac= (TextView) v.findViewById(R.id.abactelefon);
+        TextView link2= (TextView) v.findViewById(R.id.abaclink);
+        TextView telefonamazonico= (TextView) v.findViewById(R.id.telefonamazonico);
+        TextView link5= (TextView) v.findViewById(R.id.amazonicolink);
+        TextView telefonsalita= (TextView) v.findViewById(R.id.telefonsalita);
+        TextView link4= (TextView) v.findViewById(R.id.salitalink);
+        link2.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent1 = new Intent (Intent.ACTION_VIEW, Uri.parse("https://abacrestaurant.com/es"));
+                startActivity(intent1);
+            }
+        });
+        telefonabac.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent2 = new Intent (Intent.ACTION_VIEW, Uri.parse("tel: +911 93 52 18"));
+                startActivity(intent2);
+            }
+        });
+        link4.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent1 = new Intent (Intent.ACTION_VIEW, Uri.parse("https://www.salita.es/"));
+                startActivity(intent1);
+            }
+        });
+        telefonsalita.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent2 = new Intent (Intent.ACTION_VIEW, Uri.parse("tel: +911 43 54 33"));
+                startActivity(intent2);
+            }
+        });
+        link5.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent1 = new Intent (Intent.ACTION_VIEW, Uri.parse("https://amazonicorestaurant.com/"));
+                startActivity(intent1);
+            }
+        });
+        telefonamazonico.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent2 = new Intent (Intent.ACTION_VIEW, Uri.parse("tel: +911 93 78 23"));
+                startActivity(intent2);
+            }
+        });
+        return v;
     }
 
     public interface OnFragmentInteractionListener {
