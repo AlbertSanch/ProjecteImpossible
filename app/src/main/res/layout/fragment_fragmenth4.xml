@@ -36,7 +36,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="30dp"
                         android:layout_marginTop="10dp"
-                        android:text="Room Mate Gerard " />
+                        android:text="Room Mate Gerard" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -44,6 +44,13 @@
                         android:layout_marginLeft="170dp"
                         android:layout_marginTop="40dp"
                         android:text="tel: 548443131" />
+                    <ImageView
+                        android:id="@+id/t1"
+                        android:layout_width="40dp"
+                        android:layout_height="30dp"
+                        android:src="@drawable/tel"
+                        android:layout_marginTop="35dp"
+                        android:layout_marginLeft="270dp"/>
 
                     <ImageView
                         android:layout_width="200dp"
@@ -102,6 +109,13 @@
                         android:layout_marginLeft="170dp"
                         android:layout_marginTop="40dp"
                         android:text="tel: 608933799" />
+                    <ImageView
+                        android:id="@+id/t2"
+                        android:layout_width="40dp"
+                        android:layout_height="30dp"
+                        android:src="@drawable/tel"
+                        android:layout_marginTop="35dp"
+                        android:layout_marginLeft="270dp"/>
 
                     <ImageView
                         android:layout_width="200dp"
@@ -160,6 +174,13 @@
                         android:layout_marginLeft="170dp"
                         android:layout_marginTop="40dp"
                         android:text="tel: 832097478" />
+                    <ImageView
+                        android:id="@+id/t3"
+                        android:layout_width="40dp"
+                        android:layout_height="30dp"
+                        android:src="@drawable/tel"
+                        android:layout_marginTop="35dp"
+                        android:layout_marginLeft="270dp"/>
 
                     <ImageView
                         android:layout_width="200dp"

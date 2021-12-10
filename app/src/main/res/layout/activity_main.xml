@@ -13,9 +13,7 @@
         android:layout_marginTop="130dp"
         android:layout_marginStart="75dp"
         android:src="@drawable/business"
-        android:onClick="onclick"
-        tools:ignore="OnClick,UsingOnClickInXml"
-        android:contentDescription="@string/todo" />
+ />
     <ImageButton
         android:id="@+id/botparking"
         android:layout_width="wrap_content"
@@ -23,9 +21,7 @@
         android:layout_marginTop="-160dp"
         android:layout_marginStart="240dp"
         android:src="@drawable/parking"
-        android:onClick="onclick"
-        tools:ignore="OnClick,UsingOnClickInXml"
-        android:contentDescription="@string/todo" />
+   />
     <ImageButton
         android:id="@+id/bothotels"
         android:layout_width="wrap_content"
@@ -33,19 +29,14 @@
         android:layout_marginTop="0dp"
         android:layout_marginStart="75dp"
         android:src="@drawable/hotels"
-        android:onClick="onclick"
-        tools:ignore="OnClick,UsingOnClickInXml"
-        android:contentDescription="@string/todo" />
+ />
     <ImageButton
         android:id="@+id/botmovies"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="-160dp"
         android:layout_marginStart="240dp"
-        android:src="@drawable/movies"
-        android:onClick="onclick"
-        tools:ignore="OnClick,UsingOnClickInXml"
-        android:contentDescription="@string/todo" />
+        android:src="@drawable/movies" />
 
 
 </LinearLayout>

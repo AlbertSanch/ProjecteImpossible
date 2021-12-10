@@ -65,13 +65,53 @@ public class hotelFragment extends Fragment {
         // Inflate the layout for this fragment
         View v=inflater.inflate(R.layout.fragment_hotel, container, false);
         ImageView web= (ImageView) v.findViewById(R.id.link51);
+        ImageView t1= (ImageView) v.findViewById(R.id.t1);
+        ImageView t2= (ImageView) v.findViewById(R.id.t2);
+        ImageView t3= (ImageView) v.findViewById(R.id.t3);
+
         web.setOnClickListener(new View.OnClickListener() {
         @Override
                 public void onClick(View v) {
                     Intent intent4 = new Intent (Intent.ACTION_VIEW, Uri.parse("https://www.booking.com/hotel/es/ocean-drive.es.html"));
                     startActivity(intent4);
+
                 }
             });
+
+        ImageView web1= (ImageView) v.findViewById(R.id.link52);
+        web1.setOnClickListener(new View.OnClickListener() {
+        public void onClick(View v) {
+            Intent intent5 = new Intent (Intent.ACTION_VIEW, Uri.parse("https://www.booking.com/hotel/es/ocean-drive.es.html"));
+            startActivity(intent5);
+
+        }
+        });
+        ImageView web2= (ImageView) v.findViewById(R.id.link53);
+        web2.setOnClickListener(new View.OnClickListener() {
+        public void onClick(View v) {
+            Intent intent6 = new Intent (Intent.ACTION_VIEW, Uri.parse("https://www.booking.com/hotel/es/the-one-barcelona.es.html"));
+            startActivity(intent6);
+
+        }
+        });
+        t1.setOnClickListener(new View.OnClickListener() {
+        public void onClick(View v) {
+            Intent intent1 = new Intent (Intent.ACTION_VIEW, Uri.parse("tel:+938143149"));
+            startActivity(intent1);
+        }
+        });
+        t2.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent2 = new Intent (Intent.ACTION_VIEW, Uri.parse("tel:+908997349"));
+                startActivity(intent2);
+            }
+        });
+        t3.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent3 = new Intent (Intent.ACTION_VIEW, Uri.parse("tel:+868787598"));
+                startActivity(intent3);
+            }
+        });
         return v;
     }
 }

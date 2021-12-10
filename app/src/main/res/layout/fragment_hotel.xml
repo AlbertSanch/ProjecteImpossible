@@ -46,13 +46,20 @@
                         android:text="tel: 938143149" />
 
                     <ImageView
+                        android:id="@+id/t1"
+                        android:layout_width="40dp"
+                        android:layout_height="30dp"
+                        android:src="@drawable/tel"
+                        android:layout_marginTop="35dp"
+                        android:layout_marginLeft="270dp"/>
+                    <ImageView
                         android:layout_width="200dp"
                         android:layout_height="200dp"
                         android:layout_marginLeft="30dp"
                         android:layout_marginTop="10dp"
                         android:layout_marginRight="250dp"
                         android:layout_marginBottom="60dp"
-                        android:src="@drawable/h31" />
+                        android:src="@drawable/h51" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -103,7 +110,13 @@
                         android:layout_marginLeft="170dp"
                         android:layout_marginTop="40dp"
                         android:text="tel: 908997349" />
-
+                    <ImageView
+                        android:id="@+id/t2"
+                        android:layout_width="40dp"
+                        android:layout_height="30dp"
+                        android:src="@drawable/tel"
+                        android:layout_marginTop="35dp"
+                        android:layout_marginLeft="270dp"/>
                     <ImageView
                         android:layout_width="200dp"
                         android:layout_height="200dp"
@@ -161,6 +174,13 @@
                         android:layout_marginLeft="170dp"
                         android:layout_marginTop="40dp"
                         android:text="tel: 868787598" />
+                    <ImageView
+                        android:id="@+id/t3"
+                        android:layout_width="40dp"
+                        android:layout_height="30dp"
+                        android:src="@drawable/tel"
+                        android:layout_marginTop="35dp"
+                        android:layout_marginLeft="270dp"/>
 
                     <ImageView
                         android:layout_width="200dp"
