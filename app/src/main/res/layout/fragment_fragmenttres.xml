@@ -6,6 +6,7 @@
     tools:context=".Fragmenttres"
     android:orientation="vertical">
 
+
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="match_parent"

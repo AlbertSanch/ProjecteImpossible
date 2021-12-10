@@ -73,6 +73,7 @@ public class Fragmentcuatro extends Fragment {
         TextView telefonamazonico= (TextView) v.findViewById(R.id.telefonamazonico);
         TextView link5= (TextView) v.findViewById(R.id.amazonicolink);
 
+
         t1.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 Intent intent1 = new Intent (Intent.ACTION_VIEW, Uri.parse("https://www.burgerking.es/home"));

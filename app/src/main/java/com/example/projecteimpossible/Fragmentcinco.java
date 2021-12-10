@@ -93,6 +93,7 @@ public class Fragmentcinco extends Fragment {
                 startActivity(intent2);
             }
         });
+
         link5.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 Intent intent1 = new Intent (Intent.ACTION_VIEW, Uri.parse("https://amazonicorestaurant.com/"));
