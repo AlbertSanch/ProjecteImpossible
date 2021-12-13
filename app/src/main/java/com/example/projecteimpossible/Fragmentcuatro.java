@@ -13,10 +13,10 @@ import android.widget.TextView;
 
 /**
  * A simple {@link Fragment} subclass.
- * Use the {@link Fragmentcinco#newInstance} factory method to
+ * Use the {@link Fragmentcuatro#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class Fragmentcinco extends Fragment {
+public class Fragmentcuatro extends Fragment {
 
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -27,7 +27,7 @@ public class Fragmentcinco extends Fragment {
     private String mParam1;
     private String mParam2;
 
-    public Fragmentcinco() {
+    public Fragmentcuatro() {
         // Required empty public constructor
     }
 
@@ -37,11 +37,11 @@ public class Fragmentcinco extends Fragment {
      *
      * @param param1 Parameter 1.
      * @param param2 Parameter 2.
-     * @return A new instance of fragment Fragmentcinco.
+     * @return A new instance of fragment Fragmentcuatro.
      */
     // TODO: Rename and change types and number of parameters
-    public static Fragmentcinco newInstance(String param1, String param2) {
-        Fragmentcinco fragment = new Fragmentcinco();
+    public static Fragmentcuatro newInstance(String param1, String param2) {
+        Fragmentcuatro fragment = new Fragmentcuatro();
         Bundle args = new Bundle();
         args.putString(ARG_PARAM1, param1);
         args.putString(ARG_PARAM2, param2);
@@ -61,14 +61,31 @@ public class Fragmentcinco extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        // Inflate the layout for this fragment
-        View v=inflater.inflate(R.layout.fragment_fragmentcinco, container, false);
+        View v=inflater.inflate(R.layout.fragment_fragmentcuatro, container, false);
+        TextView telefonbug= (TextView) v.findViewById(R.id.telefonburger);
+        TextView t1= (TextView) v.findViewById(R.id.burgerlink);
         TextView telefonabac= (TextView) v.findViewById(R.id.abactelefon);
         TextView link2= (TextView) v.findViewById(R.id.abaclink);
-        TextView telefonamazonico= (TextView) v.findViewById(R.id.telefonamazonico);
-        TextView link5= (TextView) v.findViewById(R.id.amazonicolink);
+        TextView telefonmcdo= (TextView) v.findViewById(R.id.telefonmcdo);
+        TextView link3= (TextView) v.findViewById(R.id.mcdolink);
         TextView telefonsalita= (TextView) v.findViewById(R.id.telefonsalita);
         TextView link4= (TextView) v.findViewById(R.id.salitalink);
+        TextView telefonamazonico= (TextView) v.findViewById(R.id.telefonamazonico);
+        TextView link5= (TextView) v.findViewById(R.id.amazonicolink);
+
+
+        t1.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent1 = new Intent (Intent.ACTION_VIEW, Uri.parse("https://www.burgerking.es/home"));
+                startActivity(intent1);
+            }
+        });
+        telefonbug.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent2 = new Intent (Intent.ACTION_VIEW, Uri.parse("tel: +911 93 49 22"));
+                startActivity(intent2);
+            }
+        });
         link2.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 Intent intent1 = new Intent (Intent.ACTION_VIEW, Uri.parse("https://abacrestaurant.com/es"));
@@ -78,6 +95,18 @@ public class Fragmentcinco extends Fragment {
         telefonabac.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 Intent intent2 = new Intent (Intent.ACTION_VIEW, Uri.parse("tel: +911 93 52 18"));
+                startActivity(intent2);
+            }
+        });
+        link3.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent1 = new Intent (Intent.ACTION_VIEW, Uri.parse("https://mcdonalds.es/"));
+                startActivity(intent1);
+            }
+        });
+        telefonmcdo.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent2 = new Intent (Intent.ACTION_VIEW, Uri.parse("tel: +911 93 12 65"));
                 startActivity(intent2);
             }
         });
@@ -93,7 +122,6 @@ public class Fragmentcinco extends Fragment {
                 startActivity(intent2);
             }
         });
-
         link5.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 Intent intent1 = new Intent (Intent.ACTION_VIEW, Uri.parse("https://amazonicorestaurant.com/"));
@@ -106,9 +134,8 @@ public class Fragmentcinco extends Fragment {
                 startActivity(intent2);
             }
         });
+        // Inflate the layout for this fragment
         return v;
-    }
 
-    public interface OnFragmentInteractionListener {
     }
 }

@@ -32,5 +32,6 @@
     <string name="info_raya">Dirección: Don Hall, Carlos López Estrada, Paul Briggs, John Ripa\nDuración: 114 min.\nGénero:Animación, Fantástico, Aventuras, Acción</string>
     <string name="todo">TODO</string>
     <!-- TODO: Remove or change this placeholder text -->
+
     <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

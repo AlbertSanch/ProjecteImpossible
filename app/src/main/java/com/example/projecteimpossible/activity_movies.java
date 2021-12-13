@@ -12,6 +12,7 @@ public class activity_movies extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_movies);
+
     }
     public void onclick(View view) {
 
